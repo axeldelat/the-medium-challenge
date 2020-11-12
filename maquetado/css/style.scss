@@ -1,0 +1,209 @@
+// General
+* {
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+$lighter-gray: rgb(230, 230, 230);
+$light-grey: rgb(117, 117, 117);
+$light-green: rgba(26, 137, 23, 1);
+$dark-green: rgb(15, 115, 12);
+
+// Header
+header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	nav {
+		.logo {
+			.greeting {
+				font-size: 20px;
+				font-weight: bold;
+				padding-left: 16px;
+				border-left: 1px solid rgba(230, 230, 230, 1);
+			}
+			svg {
+				height: 32px;
+				padding-right: 16px;
+			}
+			button {
+				color: $light-green;
+				border: $light-green;
+			}
+			button:hover {
+				color: $dark-green;
+				border: $dark-green;
+			}
+		}
+		.btn-black {
+			background-color: black;
+			color: white;
+		}
+		.navigation {
+			div {
+				margin-right: 16px;
+			}
+			button {
+				padding: 4px 12px;
+				font-size: 14px;
+				margin-right: 16px;
+			}
+			img {
+				height: 32px;
+			}
+		}
+	}
+}
+
+//Main Content
+
+//Featured Section
+main {
+	.tiny-avatar {
+		height: 20px;
+		width: 20px;
+	}
+	.featured-section {
+		.first-featured-post {
+			.author-name {
+				font-size: 13px;
+				font-weight: bold;
+				margin: 0;
+				margin-left: 8px;
+				margin-top: 16px;
+			}
+			.title {
+				font-size: 22px;
+				font-weight: bold;
+				padding-top: 8px;
+				padding-bottom: 6px;
+			}
+			.subtitle {
+				font-size: 18px;
+				font-family: serif;
+			}
+			.featured-img {
+				background-image: url(../images/1_0QxQodE1rzAG_6nmzRWpFA.jpeg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 250px;
+			}
+			.meta {
+				color: $light-grey;
+				font-size: 13px;
+				margin-top: 16px;
+				a {
+					color: $light-grey;
+				}
+			}
+		}
+		.second-featured-section {
+			.middle-posts {
+				margin-bottom: 32px;
+				.card-text {
+					padding-right: 20px;
+					.author-section {
+						padding-bottom: 8px;
+						.author-name {
+							font-size: 13px;
+							font-weight: bold;
+							margin: 0;
+							margin-left: 8px;
+						}
+					}
+					.title {
+						font-size: 16px;
+						font-weight: bold;
+						padding-top: 8px;
+					}
+					.subtitle {
+						font-size: 18px;
+						font-family: serif;
+					}
+					.meta {
+						color: $light-grey;
+						font-size: 13px;
+						margin-top: 8px;
+						a {
+							color: $light-grey;
+						}
+						svg {
+							fill: $light-grey;
+						}
+					}
+				}
+				.post-img {
+					background-image: url(../images/1_0QxQodE1rzAG_6nmzRWpFA.jpeg);
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					height: 100px;
+					width: 100px;
+				}
+			}
+		}
+	}
+}
+
+.creators-to-follow {
+	h4 {
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.authors-box{
+		button {
+			padding: 4px 12px 6px 12px;
+			font-size: 14px;
+		}
+		img {
+			height: 64px;
+			width: 64px;
+			margin-right: 8px;
+		}
+		.autor-meta{
+			margin-right: 8px;
+			h4{
+				font-size: 13px;
+				padding-bottom: 4px;
+				text-transform: none;
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.topics-to-follow {
+	margin-top: 32px;
+	p{
+		a{
+			color: $dark-green;
+		}
+	}
+	h4 {
+		font-size: 16px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.topic-box{
+		padding-bottom: 14px;
+		padding-top: 14px;
+		button {
+			padding: 4px 12px 6px 12px;
+			font-size: 14px;
+		}
+		h5{
+			font-size: 16px;
+			font-weight: bold;
+		}
+	}
+}
+
+.trending {
+	h2 {
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}

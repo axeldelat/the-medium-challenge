@@ -1,0 +1,214 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header nav .logo .greeting {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 16px;
+  border-left: 1px solid #e6e6e6;
+}
+
+header nav .logo svg {
+  height: 32px;
+  padding-right: 16px;
+}
+
+header nav .logo button {
+  color: #1a8917;
+  border: #1a8917;
+}
+
+header nav .logo button:hover {
+  color: #0f730c;
+  border: #0f730c;
+}
+
+header nav .btn-black {
+  background-color: black;
+  color: white;
+}
+
+header nav .navigation div {
+  margin-right: 16px;
+}
+
+header nav .navigation button {
+  padding: 4px 12px;
+  font-size: 14px;
+  margin-right: 16px;
+}
+
+header nav .navigation img {
+  height: 32px;
+}
+
+main .tiny-avatar {
+  height: 20px;
+  width: 20px;
+}
+
+main .featured-section .first-featured-post .author-name {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 8px;
+  margin-top: 16px;
+}
+
+main .featured-section .first-featured-post .title {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+main .featured-section .first-featured-post .subtitle {
+  font-size: 18px;
+  font-family: serif;
+}
+
+main .featured-section .first-featured-post .featured-img {
+  background-image: url(../images/1_0QxQodE1rzAG_6nmzRWpFA.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+main .featured-section .first-featured-post .meta {
+  color: #757575;
+  font-size: 13px;
+  margin-top: 16px;
+}
+
+main .featured-section .first-featured-post .meta a {
+  color: #757575;
+}
+
+main .featured-section .second-featured-section .middle-posts {
+  margin-bottom: 32px;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text {
+  padding-right: 20px;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text .author-section {
+  padding-bottom: 8px;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text .author-section .author-name {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 8px;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text .title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text .subtitle {
+  font-size: 18px;
+  font-family: serif;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text .meta {
+  color: #757575;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text .meta a {
+  color: #757575;
+}
+
+main .featured-section .second-featured-section .middle-posts .card-text .meta svg {
+  fill: #757575;
+}
+
+main .featured-section .second-featured-section .middle-posts .post-img {
+  background-image: url(../images/1_0QxQodE1rzAG_6nmzRWpFA.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.creators-to-follow h4 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.creators-to-follow .authors-box button {
+  padding: 4px 12px 6px 12px;
+  font-size: 14px;
+}
+
+.creators-to-follow .authors-box img {
+  height: 64px;
+  width: 64px;
+  margin-right: 8px;
+}
+
+.creators-to-follow .authors-box .autor-meta {
+  margin-right: 8px;
+}
+
+.creators-to-follow .authors-box .autor-meta h4 {
+  font-size: 13px;
+  padding-bottom: 4px;
+  text-transform: none;
+}
+
+.creators-to-follow .authors-box .autor-meta p {
+  margin-bottom: 0;
+}
+
+.topics-to-follow {
+  margin-top: 32px;
+}
+
+.topics-to-follow p a {
+  color: #0f730c;
+}
+
+.topics-to-follow h4 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.topics-to-follow .topic-box {
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.topics-to-follow .topic-box button {
+  padding: 4px 12px 6px 12px;
+  font-size: 14px;
+}
+
+.topics-to-follow .topic-box h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.trending h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
