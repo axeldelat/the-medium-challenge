@@ -1,0 +1,16 @@
+  
+.Formulario {
+    width: 40vw;
+    height: 40px;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    background-color: peru;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: start;
+    align-items: center;
+    margin-left: 28vw;
+  }
