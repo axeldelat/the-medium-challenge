@@ -123,10 +123,8 @@ class MediumPosts extends Component {
     let postsLocal = JSON.parse(localStorage.getItem("posts"));
     postsLocal.push(newPost);
     localStorage.setItem("posts", JSON.stringify(postsLocal));
-    // eslint-disable-next-line no-undef
     posts.push(newPost);
     this.setState({
-      // eslint-disable-next-line no-undef
       posts,
       title: "",
       subtitle: "",
