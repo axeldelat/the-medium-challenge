@@ -206,9 +206,86 @@ main .featured-section .second-featured-section .middle-posts .post-img {
   font-weight: bold;
 }
 
-.trending h2 {
-  font-size: 14px;
+.trending .big-counter {
+  color: #e6e6e6;
+  font-size: 40px;
   font-weight: bold;
-  text-transform: uppercase;
+  line-height: initial;
+}
+
+.trending .author-section {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.trending h4 {
+  font-size: 13px;
+  text-transform: none;
+  font-weight: bold;
+  margin: 0;
+}
+
+.trending h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.trending .meta {
+  color: #757575;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.trending .meta a {
+  color: #757575;
+}
+
+.trending .meta svg {
+  fill: #757575;
+}
+
+.all-articles .generic-list-post-item .author-section {
+  padding-bottom: 8px;
+}
+
+.all-articles .generic-list-post-item .author-section .author-name {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 8px;
+}
+
+.all-articles .generic-list-post-item .title {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.all-articles .generic-list-post-item .subtitle {
+  font-size: 18px;
+  font-family: serif;
+}
+
+.all-articles .generic-list-post-item .meta {
+  color: #757575;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.all-articles .generic-list-post-item .meta a {
+  color: #757575;
+}
+
+.all-articles .generic-list-post-item .meta svg {
+  fill: #757575;
+}
+
+.all-articles .post-img {
+  background-image: url(../images/1_0QxQodE1rzAG_6nmzRWpFA.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 133px;
+  width: 220px;
 }
 /*# sourceMappingURL=style.css.map */
