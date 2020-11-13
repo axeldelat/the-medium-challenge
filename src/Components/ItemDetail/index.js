@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect} from 'react'
 
 let example = [1,2,3]
 

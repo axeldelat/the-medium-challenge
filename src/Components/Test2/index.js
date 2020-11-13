@@ -12,10 +12,10 @@ function Test2() {
   const [items,setItems] = useState([])
 
   const fetchItems = async ()=>{
-    const data = await fetch('https://api.randomuser.me/');
+    const data = await fetch('http://localhost:8081/entries');
     
     const items = await data.json()
-    console.log(items.results) 
+    console.log(items) 
     setItems(items.results)
   }
 

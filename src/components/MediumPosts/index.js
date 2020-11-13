@@ -232,11 +232,11 @@ class MediumPosts extends Component {
           />
           <button type="submit">SUBMIT POST</button>
         </form>
-        {posts.length ? (
+        {/* {posts.length ? (
           <ul>{this.renderPosts()}</ul>
         ) : (
           <h1>No Posts</h1>
-        )}
+        )} */}
       </div>
     );
   }

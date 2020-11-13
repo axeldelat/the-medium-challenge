@@ -1,6 +1,6 @@
 import './App.css';
 // import Posts from './components/Posts';
-import MediumPosts from './components/MediumPosts';
+// import MediumPosts from './components/MediumPosts';
 import Nav from './components/Nav'
 import Test from './components/Test'
 import Test2 from './components/Test2'
@@ -20,7 +20,7 @@ function App() {
         <Route path="/test2" component={Test2}/>
         <Route path="/Nav/:id" component={ItemDetail}/>
         </Switch>
-      <MediumPosts />
+      {/* <MediumPosts /> */}
       </BrowserRouter>
     </div>
   );
